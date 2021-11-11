@@ -60,6 +60,24 @@ header a {
 
 nav ul {
   margin-bottom: 0;
+  padding-left: 0;
+  list-style-type: none;
+  display: flex;
+}
+
+nav li{
+  margin: 0 15px;
+}
+
+nav a{
+  display: inline-block;
+  position: center;
+
+  padding: 15px;
+}
+
+nav a:hover{
+  background-color: rgba(12, 238, 174, 0.53);
 }
 
 
