@@ -65,18 +65,17 @@ nav ul {
   display: flex;
 }
 
-nav li{
-  margin: 0 15px;
+nav li {
+  margin: 0 10px;
 }
 
-nav a{
+nav a {
   display: inline-block;
   position: center;
-
-  padding: 15px;
+  padding: 15px 20px;
 }
 
-nav a:hover{
+nav a:hover {
   background-color: rgba(12, 238, 174, 0.53);
 }
 
@@ -157,6 +156,7 @@ main {
 /* --- Principal >> Nuvem de tags --- */
 #tags {
   float: right;
+  box-sizing: border-box;
   width: 300px;
   padding: 15px;
   background-color: black;
@@ -170,6 +170,12 @@ main {
 #tags h1 {
   margin-bottom: 1em;
   text-shadow: 2px 2px #000;
+}
+
+#tags span:active {
+  position: relative;
+  top: -2px;
+  left: -2px;
 }
 
 .tag-1,
@@ -197,13 +203,13 @@ main {
 
 
 /* --- Rodapé --- */
-#rodape {
+footer {
   background-color: rgba(0, 0, 0, .7);
   padding: 1em;
   display: flex;
 }
 
-#rodape .logo-rodape {
+footer .logo-rodape {
   margin-right: 2em;
 }
 
