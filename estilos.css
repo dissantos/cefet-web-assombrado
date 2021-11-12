@@ -119,7 +119,7 @@ main {
 }
 
 #posts-principais .post .titulo:hover {
-  top: 0px;
+  top: 0;
   opacity: 1;
   background-color:rgba(0, 0, 0, 0.6);
 }
@@ -185,6 +185,8 @@ main {
   background-size: 300px;
   box-shadow: -4px 0 10px rgba(0, 0, 0, 0.5);
   text-align: center;
+  position: sticky;
+  top: 0;
 }
 
 #tags h1 {
@@ -324,14 +326,13 @@ footer .logo-rodape {
 .boo-2 {
   bottom: 100px;
   right: 100px;
-  opacity: 1;
+  opacity: 0.3;
   transform: scaleX(-1);
   transition: all 100ms ease-in-out;
 }
 
 .boo-2:hover {
-  opacity: 0.3;
-  transform: scaleX(1);
+  opacity: 0.8;
 }
 
 .boo-3 {
